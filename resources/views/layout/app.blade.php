@@ -10,7 +10,7 @@
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="./images/favicon.png">
     <!-- Page Title  -->
-    <title>Financial Automation Software</title>
+    <title>E-Commerce Kafka Project</title>
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="./assets/css/dashlite.css?ver=3.0.3">
     <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=3.0.3">
@@ -27,7 +27,7 @@
                     <div class="nk-sidebar-element nk-sidebar-head">
     <div class="nk-sidebar-brand">
         <a href="index" class="logo-link nk-sidebar-logo">
-            <h2>Reg Form</h2>
+            <h2>Prod Mgt</h2>
             <!-- <img class="logo-light logo-img" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
                             <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
                             <img class="logo-small logo-img logo-img-small" src="./images/logo-small.png" srcset="./images/logo-small2x.png 2x" alt="logo-small"> -->
@@ -170,7 +170,7 @@
                 <div class="nk-footer">
                   <div class="container-fluid">
                       <div class="nk-footer-wrap">
-                          <div class="nk-footer-copyright"> &copy; <?php echo date('Y') ?> E-PAI. Powered by <a href="https://articulate.ng" target="_blank">Articulate Tech</a>
+                          <div class="nk-footer-copyright"> E-commerce Kafka Project  by<a href="https://linkedin.com/in/ahmadakorede" target="_blank">Ahmad Akorede</a>
                           </div>
                           <div class="nk-footer-links">
                               <ul class="nav nav-sm">
