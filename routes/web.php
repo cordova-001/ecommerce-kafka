@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MembershipController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,3 +25,13 @@ Route::get('/details', function () {
 Route::get('/list', function () {
     return view('products.product_list');
 });
+
+Route::get('/members', function(){
+    return view('members.create');
+});
+
+Route::get('/create', [MembershipController::class, 'create'])->name('create');
+Route::post('/store', [MembershipController::class, 'store'])->name('store');
+
+Route::get('/members', [MembershipController::class, 'index'])->name('members');
+

@@ -13,16 +13,20 @@ return new class extends Migration
     {
         Schema::create('memberships', function (Blueprint $table) {
             $table->id();
-            $table->string('first_name');
-            $table->string('surname');
-            $table->string('other_name');
-            $table->string('educational_qualification');
-            $table->string('professional_qualification');
-            $table->string('profession');
-            $table->string('professional_status');
-            $table->string('college_professional_group');
-            $table->string('artisan_trade');
-            $table->string('artisan_certificate');
+            $table->string('first_name')->required();
+            $table->string('surname')->required();
+            $table->string('other_name')->nullable();
+            $table->string('email')->nullable();
+            $table->string('whatsapp')->nullable();
+            $table->string('zone')->required();
+            $table->string('district')->required();
+            $table->string('educational_qualification')->nullable();
+            $table->string('professional_qualification')->nullable();
+            $table->string('profession')->nullable();
+            $table->string('professional_status')->nullable();
+            $table->string('college_professional_group')->nullable();
+            $table->string('artisan_trade')->nullable();
+            $table->string('artisan_certificate')->nullable();
             $table->string('employment_status');
             $table->timestamps();
         });

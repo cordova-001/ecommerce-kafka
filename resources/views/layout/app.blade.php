@@ -10,7 +10,7 @@
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="./images/favicon.png">
     <!-- Page Title  -->
-    <title>E-Commerce Kafka Project</title>
+    <title>Mem Mgt Project</title>
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="./assets/css/dashlite.css?ver=3.0.3">
     <link id="skin-default" rel="stylesheet" href="./assets/css/theme.css?ver=3.0.3">
@@ -27,7 +27,7 @@
                     <div class="nk-sidebar-element nk-sidebar-head">
     <div class="nk-sidebar-brand">
         <a href="index" class="logo-link nk-sidebar-logo">
-            <h2>Prod Mgt</h2>
+            <h2>Mem Mgt</h2>
             <!-- <img class="logo-light logo-img" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">
                             <img class="logo-dark logo-img" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">
                             <img class="logo-small logo-img logo-img-small" src="./images/logo-small.png" srcset="./images/logo-small2x.png 2x" alt="logo-small"> -->
@@ -41,26 +41,26 @@
 <!-- .nk-sidebar-element -->
 
 <div class="nk-sidebar-element nk-sidebar-head">
-    
-    
+
+
 </div><!-- .nk-sidebar-element -->
 <div class="nk-sidebar-element">
     <div class="nk-sidebar-content">
         <div class="nk-sidebar-menu" data-simplebar>
             <ul class="nk-menu">
-                <li class="nk-menu-item">
+                {{-- <li class="nk-menu-item">
                     <a href="index" class="nk-menu-link">
                         <span class="nk-menu-icon"><em class="icon ni ni-dashboard-fill"></em></span>
                         <span class="nk-menu-text">Dashboard</span>
                     </a>
-                </li><!-- .nk-menu-item -->
+                </li><!-- .nk-menu-item --> --}}
                 <!-- <li class="nk-menu-item">
                     <a href="settings.php" class="nk-menu-link">
                         <span class="nk-menu-icon"><em class="icon ni ni-setting-alt-fill"></em></span>
                         <span class="nk-menu-text">Settings</span>
                     </a> -->
                 </li><!-- .nk-menu-item -->
-                <li class="nk-menu-item has-sub">
+                {{-- <li class="nk-menu-item has-sub">
                     <a href="#" class="nk-menu-link nk-menu-toggle">
                         <span class="nk-menu-icon"><em class="icon ni ni-book-fill"></em></span>
                         <span class="nk-menu-text">Branch Management</span>
@@ -71,18 +71,18 @@
                         </li>
                         <li class="nk-menu-item">
                             {{-- <a href="{{ route('branch.create') }}" class="nk-menu-link"><span class="nk-menu-text">Create Branch</span></a> --}}
-                        </li>
-                        <li class="nk-menu-item">
+                        {{-- </li> --}}
+                        {{-- <li class="nk-menu-item"> --}}
                             {{-- <a href="{{ route('branch.index') }}" class="nk-menu-link"><span class="nk-menu-text">View All Branch</span></a> --}}
-                        </li>
-                    </ul><!-- .nk-menu-sub -->
-                </li><!-- .nk-menu-item -->
-                
+                        {{-- </li> --}}
+                    {{-- </ul><!-- .nk-menu-sub --> --}}
+                {{-- </li><!-- .nk-menu-item --> --}}
+
                 <li class="nk-menu-item">
-                    <a href="#" class="nk-menu-link">
+                    {{-- <a href="#" class="nk-menu-link">
                         <span class="nk-menu-icon"><em class="icon ni ni-layers-fill"></em></span>
                         <span class="nk-menu-text">All Components</span>
-                    </a>
+                    </a> --}}
                 </li><!-- .nk-menu-item -->
             </ul><!-- .nk-menu -->
         </div><!-- .nk-sidebar-menu -->
@@ -101,7 +101,7 @@
                             </div>
                             <div class="nk-header-brand d-xl-none">
                                 <a href="index.php" class="logo-link">
-                                    <h2>E<sup>2</sup>PAI</h2>
+                                    <h2>Mem Mgt</h2>
                                 </a>
                             </div><!-- .nk-header-brand -->
                             <div class="nk-header-search ms-3 ms-xl-0">
@@ -113,7 +113,7 @@
 
 
 
-                                    <li class="dropdown user-dropdown">
+                                    {{-- <li class="dropdown user-dropdown">
                                         <a href="#" class="dropdown-toggle me-n1" data-bs-toggle="dropdown">
                                             <div class="user-toggle">
                                                 <div class="user-avatar sm">
@@ -150,7 +150,7 @@
                                             </div>
 
                                         </div>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </div>
                         </div><!-- .nk-header-wrap -->
@@ -158,10 +158,10 @@
                 </div>
                 <!-- main header @e -->
                 <!-- content @s -->
-                
-                
-                
-                
+
+
+
+
                 @yield('content')
 
 
@@ -190,7 +190,7 @@
     <!-- select region modal -->
 
     <!-- Add instructor-->
-    
+
     <!-- JavaScript -->
     <script src="./assets/js/bundle.js?ver=3.0.3"></script>
     <script src="./assets/js/scripts.js?ver=3.0.3"></script>
